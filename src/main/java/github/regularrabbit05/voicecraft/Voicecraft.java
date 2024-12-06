@@ -34,6 +34,25 @@ public class Voicecraft {
         commands.addCommand("creeper", "summon creeper", 50);
         commands.addCommand("dragon", "summon ender_dragon");
         commands.addCommand("chicken", "summon chicken", 200);
+        commands.addCommand("wither", "summon wither", 100);
+        commands.addCommand("fish", "summon pufferfish", 20);
+        commands.addCommand("shulker", "summon shulker", 1);
+        commands.addCommand("warden", "summon warden", 5);
+        commands.addCommand("zombie", "summon zombie", 10);
+        commands.addCommand("skeleton", "summon skeleton", 10);
+        commands.addCommand("piglin", "summon piglin", 20);
+        commands.addCommand("pig", "summon pig", 15);
+        commands.addCommand("illusioner", "summon illusioner", 50);
+        commands.addCommand("hoglin", "summon hoglin", 30);
+        commands.addCommand("zombies", "summon giant", 10);
+        commands.addCommand("enderman", "summon enderman", 20);
+        commands.addCommand("evoker", "summon evoker", 15);
+        commands.addCommand("cow", "summon cow", 50);
+        commands.addCommand("blaze", "summon blaze", 20);
+        commands.addCommand("spider", "summon spider", 10);
+
+        commands.addCommand("rain", "summon lightning_bolt", 1);
+        commands.addCommand("raining", "summon lightning_bolt", 1);
 
         commands.addCommand("mining", "effect give @s minecraft:mining_fatigue 30 100");
         commands.addCommand("mine", "effect give @s minecraft:mining_fatigue 30 100");
@@ -44,6 +63,7 @@ public class Voicecraft {
         commands.addCommand("hunger", "effect give @s minecraft:speed 30 100");
         commands.addCommand("hungary", "effect give @s minecraft:speed 30 100");
         commands.addCommand("fat", "effect give @s minecraft:speed 30 100");
+        commands.addCommand("stuck", "effect give @s minecraft:jump_boost 30 100");
 
         commands.addCommand("diamonds", "fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:stone replace minecraft:diamond_ore");
         commands.addCommand("diamond", "fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:stone replace minecraft:diamond_ore");
